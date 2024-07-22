@@ -53,19 +53,19 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$brown-color};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$beige-color};
-  --global-text-color-light: #{$beige-color-dark};
-  --global-theme-color: #{lighten($brown-color-medium, 20%)};
-  --global-hover-color: #{$beige-color-dark};
-  --global-hover-text-color: #{$brown-color};
-  --global-footer-bg-color: #{$brown-color-light};
-  --global-footer-text-color: #{$beige-color};
-  --global-footer-link-color: #{$beige-color-dark};
-  --global-distill-app-color: #{lighten($brown-color-medium, 20%)};
-  --global-divider-color: #{$brown-color-medium};
-  --global-card-bg-color: #{$brown-color-light};
+  --global-bg-color: #{$dark-bg-color};
+  --global-code-bg-color: #{lighten($dark-bg-color, 10%)};
+  --global-text-color: #{$dark-text-color};
+  --global-text-color-light: #{lighten($dark-text-color, 15%)};
+  --global-theme-color: #{lighten($dark-text-color, 5%)};
+  --global-hover-color: #{darken($dark-theme-color, 10%)};
+  --global-hover-text-color: #{$dark-bg-color};
+  --global-footer-bg-color: #{darken($dark-theme-color, 10%)};
+  --global-footer-text-color: #{$dark-text-color};
+  --global-footer-link-color: #{darken($dark-text-color, 10%)};
+  --global-distill-app-color: #{lighten($dark-theme-color, 5%)};;
+  --global-divider-color: #{rgba($dark-text-color, 0.2)};
+  --global-card-bg-color: #{lighten($dark-bg-color, 5%)};
 
   --global-tip-block: #{lighten($brown-color-medium, 20%)};
   --global-tip-block-bg: #{$brown-color-light};
