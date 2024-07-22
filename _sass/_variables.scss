@@ -40,3 +40,16 @@ $fa-font-path: "../webfonts";
 
 // Tabler icons location
 $ti-font-path: "../fonts";
+
+// New variables for beige and brown theme
+$beige-color: #f5f5dc !default;
+$beige-color-dark: #e0e0c4 !default;
+$beige-color-light: #fff8e1 !default;
+$brown-color: #3e2723 !default;
+$brown-color-light: rgba(175, 119, 102, 0.63) !default;
+$brown-color-medium: #795548 !default;
+$brown-color-dark: #4e342e !default;
+
+// Code background colors
+$code-bg-color-light: rgba($brown-color-medium, 0.05);
+$code-bg-color-dark: $brown-color-dark !default;

@@ -22,8 +22,9 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
+            {% assign profile_image_class = 'img-fluid
       rounded' %}
+          {% comment %}{% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}{% endcomment %}
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
@@ -33,7 +34,8 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div>{{ page.profile.more_info }}</div>
+          {% comment %}<div class="more-info">{{ page.profile.more_info }}</div>{% endcomment %}
         {% endif %}
       </div>
     {% endif %}
@@ -61,7 +63,7 @@ layout: default
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      {% include selected-new.liquid %}
     {% endif %}
 
     <!-- Social -->

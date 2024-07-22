@@ -1,0 +1,52 @@
+advisor:
+  - name: Sauvik Das
+    image: sd.jpg
+    role: Assistant Professor, CMU
+    description: 
+    website: http://www.sauvikdas.com/
+
+students:
+  - name: Jacob Logas
+    image: pjl.jpeg
+    role: GT Ph.D.
+    description: Subversive AI
+    website: https://logas.me/
+    years: 2019-present
+  - name: Hao-Ping (Hank) Lee
+    image: hhpl.jpg
+    role: CMU Ph.D.
+    description: AI Privacy
+    website: https://hankhplee.com/
+    years: 2021-present
+  - name: Isadora Krsek
+    image: ik.jpeg
+    role: CMU Ph.D.
+    description: NLP for privacy / security
+    website: https://www.isadorakrsek.com/
+    years: 2022-present
+  - name: Kyzyl Monteiro
+    image: km.jpeg
+    role: CMU Ph.D.
+    description: Intelligent agents for security
+    website: https://www.kyzyl.me/
+    years: 2023-present
+  - name: William Agnew
+    image: wa.png
+    role: CMU Postdoc
+    description: Community-centered AI
+    website: https://sites.google.com/cs.washington.edu/william-agnew/home
+    years: 2023-present
+
+alumni:
+  - name: Youngwook Do
+    image: ywd.png
+    role: GT Ph.D. alum
+    description: Physically-intuitive security
+    website: http://www.youngwookdo.me/
+    years: 2018-2023
+  - name: Yuxi Wu
+    image: yw.jpeg
+    role: GT Ph.D. alum
+    description: Privacy Collective Action
+    website: https://yuxi-wu.github.io/
+    years: 2019-2024
