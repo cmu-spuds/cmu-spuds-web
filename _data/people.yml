@@ -6,12 +6,6 @@ advisor:
     website: http://www.sauvikdas.com/
 
 students:
-  - name: Jacob Logas
-    image: pjl.jpeg
-    role: GT Ph.D.
-    description: Subversive AI
-    website: https://logas.me/
-    years: 2019-present
   - name: Hao-Ping (Hank) Lee
     image: hhpl.jpg
     role: CMU Ph.D.
@@ -36,8 +30,20 @@ students:
     description: Community-centered AI
     website: https://sites.google.com/cs.washington.edu/william-agnew/home
     years: 2023-present
+  - name: Yuxuan Li
+    image: yl.jpg
+    role: CMU Ph.D.
+    description: Social agent simulation & policy
+    website: https://www.yuxuanli.com
+    years: 2024-present
 
 alumni:
+  - name: Jacob Logas
+    image: pjl.jpeg
+    role: GT Ph.D. alum
+    description: Subversive AI
+    website: https://logas.me/
+    years: 2019-2025
   - name: Youngwook Do
     image: ywd.png
     role: GT Ph.D. alum
