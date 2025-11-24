@@ -70,13 +70,13 @@ nav_order: 1
         {% endif %}
         <div class="publication-links">
           {% if publication.pdf %}
-            <a href="{{ publication.pdf }}" target="_blank">PDF</a>
+            <a href="{{ publication.pdf }}" target="_blank" data-proofer-ignore>PDF</a>
           {% endif %}
           {% if publication.video_url %}
-            <a href="{{ publication.video_url }}" target="_blank">Video</a>
+            <a href="{{ publication.video_url }}" target="_blank" data-proofer-ignore>Video</a>
           {% endif %}
           {% if publication.slides %}
-            <a href="{{ publication.slides }}" target="_blank">Slides</a>
+            <a href="{{ publication.slides }}" target="_blank" data-proofer-ignore>Slides</a>
           {% endif %}
         </div>
       </div>

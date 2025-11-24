@@ -52,6 +52,27 @@ bundle exec jekyll build
 
 The site will be generated in the `_site` directory.
 
+### Clear Cache and Rebuild
+
+If you encounter build issues or need to force a fresh build with updated external data:
+
+```bash
+# Clear Jekyll cache
+rm -rf .jekyll-cache
+
+# Clear built site
+rm -rf _site
+
+# Rebuild
+bundle exec jekyll build
+```
+
+Or to serve locally with a clean build:
+
+```bash
+rm -rf .jekyll-cache _site && bundle exec jekyll serve
+```
+
 ## Deployment
 
 The site is automatically built and deployed to GitHub Pages via GitHub Actions.
