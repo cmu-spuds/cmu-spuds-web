@@ -54,7 +54,19 @@ The site will be generated in the `_site` directory.
 
 ## Deployment
 
-The site is automatically built and deployed to GitHub Pages via GitHub Actions. See `.github/workflows/` for deployment configuration.
+The site is automatically built and deployed to GitHub Pages via GitHub Actions.
+
+**Automatic builds happen when:**
+- Code is pushed to `main` or `master` branch
+- Every 6 hours (to pick up changes from Google Sheets and publications.json)
+- Manually triggered from the Actions tab
+
+**Deployment process:**
+1. GitHub Actions builds the site (fetches external data from Google Sheets and `sauvik.me/papers.json`)
+2. Deploys the built site to the `gh-pages` branch
+3. GitHub Pages serves the site from `gh-pages` branch
+
+**Configuration**: See `.github/workflows/deploy.yml` for the deployment workflow.
 
 ## Documentation
 

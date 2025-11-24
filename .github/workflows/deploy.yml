@@ -50,6 +50,10 @@ on:
       - "!INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  # Schedule builds every 6 hours to pick up external data changes
+  # (Google Sheets news and publications.json)
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
 
 permissions:
   contents: write
@@ -87,3 +91,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          branch: gh-pages
+          clean: true
