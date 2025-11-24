@@ -181,6 +181,16 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
+# Google Sheets News Integration
+# Set enabled: true and provide either csv_url (recommended) or sheet_id
+# Make sure your Google Sheet is published to the web (File > Share > Publish to web)
+# The sheet should have columns: date, title, content (optional: inline, url)
+google_sheets_news:
+  enabled: true # Set to true to enable Google Sheets news
+  csv_url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vSmdYcxQr7I16QACboNxlOREq2pIikIYrvo9hqu8iBdoujcs9Q4se8yIvfDNZ5fWqxK5rn2jLFtFF3B/pub?output=csv" # Published CSV URL (recommended)
+  sheet_id: "" # Alternative: Your Google Sheet ID (found in the sheet URL)
+  gid: "0" # Sheet tab ID (only needed if using sheet_id, usually "0" for the first sheet)
+
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
