@@ -63,7 +63,7 @@ html[data-theme="dark"] {
   --global-footer-bg-color: #{darken($dark-theme-color, 10%)};
   --global-footer-text-color: #{$dark-text-color};
   --global-footer-link-color: #{darken($dark-text-color, 10%)};
-  --global-distill-app-color: #{lighten($dark-theme-color, 5%)};;
+  --global-distill-app-color: #{lighten($dark-theme-color, 5%)};
   --global-divider-color: #{rgba($dark-text-color, 0.2)};
   --global-card-bg-color: #{lighten($dark-bg-color, 5%)};
 

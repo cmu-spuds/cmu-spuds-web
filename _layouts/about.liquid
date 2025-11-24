@@ -24,7 +24,7 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid
       rounded' %}
-          {% comment %}{% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}{% endcomment %}
+            {% comment %}{% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}{% endcomment %}
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}

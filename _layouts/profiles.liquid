@@ -3,10 +3,11 @@ layout: page
 ---
 <div class="post">
   <article>
-   {% include people_grid.liquid
+    {%
+      include people_grid.liquid
       advisor=site.data.people.advisor
       students=site.data.people.students
       alumni=site.data.people.alumni
-  %}
+    %}
   </article>
 </div>

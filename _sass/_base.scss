@@ -1141,7 +1141,7 @@ swiper-container {
 }
 
 .lab-member {
-  color: var(--global-theme-color);  /* You can change this to any color you prefer */
+  color: var(--global-theme-color); /* You can change this to any color you prefer */
 }
 .search-container {
   margin-bottom: 20px;
@@ -1165,12 +1165,12 @@ swiper-container {
 .publication {
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
-  border-bottom: 1px solid var( --global-text-color-light);
+  border-bottom: 1px solid var(--global-text-color-light);
 }
-.publication-year{
+.publication-year {
   text-align: right;
   font-weight: bolder;
-  color: var( --global-text-color-light);
+  color: var(--global-text-color-light);
 }
 .publication-title {
   font-weight: bold;
@@ -1179,7 +1179,7 @@ swiper-container {
 }
 .publication-authors {
   margin-bottom: 0.3em;
-  color:var(--global-hover-color);
+  color: var(--global-hover-color);
 }
 .publication-venue {
   color: var(--global-theme-color);
@@ -1227,12 +1227,14 @@ swiper-container {
 .person-card {
   padding: 1rem;
   border-radius: 8px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .person-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 10px var( --global-text-color-light);
+  box-shadow: 0 4px 10px var(--global-text-color-light);
 }
 
 .person-card.advisor {

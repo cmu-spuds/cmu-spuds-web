@@ -9,13 +9,13 @@ nav_order: 1
 
 {% assign lab_members = "" | split: "" %}
 {% for member in site.data.people.advisor %}
-  {% assign lab_members = lab_members | push: member.name %}
+{% assign lab_members = lab_members | push: member.name %}
 {% endfor %}
 {% for member in site.data.people.students %}
-  {% assign lab_members = lab_members | push: member.name %}
+{% assign lab_members = lab_members | push: member.name %}
 {% endfor %}
 {% for member in site.data.people.alumni %}
-  {% assign lab_members = lab_members | push: member.name %}
+{% assign lab_members = lab_members | push: member.name %}
 {% endfor %}
 
 <!-- Search bar -->
